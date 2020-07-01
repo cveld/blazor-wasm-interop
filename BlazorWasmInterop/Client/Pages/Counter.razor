@@ -1,0 +1,18 @@
+﻿@page "/counter"
+    <canvas id="myCanvas"></canvas>
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary mr-1" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary mr-1" @onclick="TestInterop">Test interop</button>
+
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

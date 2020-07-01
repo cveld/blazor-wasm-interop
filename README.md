@@ -16,3 +16,8 @@ https://github.com/kjpou1/wasm-dom
 2. WebAssembly.Bindings.dll assembly
 WebAssembly.Bindings.dll is part of the Mono Wasm sdk. Read their documentation to get a copy:
 https://github.com/mono/mono/blob/master/sdks/wasm/docs/getting-started/obtain-wasm-sdk.md
+
+
+You can try out the result online; just press the `Test interop` button: https://blazorwasminterop.azurewebsites.net/counter
+
+![image](https://user-images.githubusercontent.com/6196260/86184268-2152f600-bb34-11ea-8184-d7479d6a517d.png)
